@@ -52,7 +52,7 @@ CSRF_TRUSTED_ORIGINS = ['https://i54m.com', 'https://*.i54m.com']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG', default=False)
 
-ALLOWED_HOSTS = ['api.i54m.com']
+ALLOWED_HOSTS = env('ALLOWED_HOSTS').split(',')
 
 
 # Application definition
