@@ -1,8 +1,8 @@
 Django==4.2.13
 django-environ==0.12.0
-django-i54m-apiuser @ file:///usr/share/django/django-i54m-apiuser/dist/django-i54m-apiuser-0.2.2.tar.gz#sha256=c78536264d39218aa389575fd637981bedda6064f3eec0b2cb49237a281ac219
+django-i54m-apiuser @ https://ci.i54m.com/job/django-i54m-apiuser/1/artifact/django-i54m-apiuser/dist/django_i54m_apiuser-0.3.0-py3-none-any.whl#egg=django_i54m_apiuser-0.3.0
 future==1.0.0
 gunicorn==23.0.0
-mysqlclient==2.2.4
+mysqlclient==2.2.7
 redis==5.0.4
 regex==2024.5.15
